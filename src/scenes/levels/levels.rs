@@ -21,6 +21,7 @@ pub async fn start_level(scene: &mut Scene, textures: &mut BTreeMap<SceneTexture
                 }
                 Level::Level1 => level_1(scene, textures, level_scene_data, persistent_level_data, &settings).await,
                 Level::Level2 => level_2(scene, textures, level_scene_data, persistent_level_data, &settings).await,
+                Level::Level3 => level_2(scene, textures, level_scene_data, persistent_level_data, &settings).await,
             }
         }
     }
